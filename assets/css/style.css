@@ -8,6 +8,39 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+::-moz-selection { /* Code for Firefox */
+  color: rgb(255, 255, 255);
+  background: #ff0586d5;
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background: #ff0586ce;
+}
+
+/* width */
+::-webkit-scrollbar {
+  background: transparent;
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px rgba(255, 255, 255, 0); 
+  border-radius: 8px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff0084; 
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e20075e0; 
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -19,7 +52,7 @@ a {
 }
 
 a:hover {
-  color: #067ded;
+  color: #ff0083;
   text-decoration: none;
 }
 

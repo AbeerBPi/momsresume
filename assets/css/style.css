@@ -8,6 +8,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.btn-info, .btn-info:hover, .btn-info:active, .btn-info:visited {
+  background-color: #ff0083 !important;
+  outline: none !important;
+  border: none !important;
+  border-radius: 14px;
+}
+
 ::-moz-selection { /* Code for Firefox */
   color: rgb(255, 255, 255);
   background: #ff0586d5;
@@ -917,7 +924,7 @@ section {
 }
 
 .services .iconbox-blue i {
-  color: #47aeff;
+  color: #995700;
 }
 
 .services .iconbox-blue:hover .icon i {
@@ -925,11 +932,11 @@ section {
 }
 
 .services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
+  fill: #a35c00;
 }
 
 .services .iconbox-orange i {
-  color: #ffa76e;
+  color: #a200ff;
 }
 
 .services .iconbox-orange:hover .icon i {
@@ -937,7 +944,7 @@ section {
 }
 
 .services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
+  fill: #a200ff;
 }
 
 .services .iconbox-pink i {

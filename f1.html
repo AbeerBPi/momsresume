@@ -7,6 +7,7 @@
     <title>Abeer's F1 Live Stream</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <link rel="icon" type="image/x-icon" href="f1logo.ico" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   </head>
   <body
     style="
@@ -15,8 +16,16 @@
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     "
   >
-    <br /><br /><br />
+    <br /><br />
     <center>
+      <button
+        type="button"
+        class="w3-button w3-round w3-blue"
+        onClick="window.location.reload();"
+      >
+        Refresh Page
+      </button>
+      <br /><br />
       <iframe
         sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation"
         src="//f1livegp.me/f1/live.php"
@@ -30,25 +39,19 @@
       ></iframe>
       <br /><br />
       Emergency Alternates:<br /><br />
-      <a
-        target="_blank"
-        style="
-          color: red;
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
-          text-decoration: dotted;
-        "
-        href="https://main.formula1stream.cc/"
-        >F1STREAMSCC</a
-      ><br />
-      <a
-        target="_blank"
-        style="
-          color: green;
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
-          text-decoration: dotted;
-        "
-        href="https://main.formula1stream.cc/"
-        >SPORTSSURGE</a
+      <button
+        type="button"
+        class="w3-button w3-round w3-red"
+        onclick=" window.open('https://main.formula1stream.cc/','_blank')"
+      >
+        F1StreamsCC</button
+      ><br /><br />
+      <button
+        type="button"
+        class="w3-button w3-round w3-green"
+        onclick=" window.open('https://main.formula1stream.cc/','_blank')"
+      >
+        SportsSurge</button
       ><br /><br />
     </center>
   </body>
